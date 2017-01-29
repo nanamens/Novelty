@@ -9,7 +9,7 @@
     Private womenStandard As Decimal = 7.75
     Private womenPremium As Decimal = 10.5
 
-    p
+
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Me.Close()
@@ -24,7 +24,9 @@
 
     End Sub
 
+    Private Sub SexGroupBox_Enter(sender As Object, e As EventArgs) Handles SexGroupBox.Enter
 
+    End Sub
 
     Private Sub DataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView1.CellContentClick
 
