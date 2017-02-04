@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form1
+Partial Class NOVELTY
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -30,56 +30,59 @@ Partial Class Form1
         Me.LargeRadioButton = New System.Windows.Forms.RadioButton()
         Me.SmallRadiobutton = New System.Windows.Forms.RadioButton()
         Me.SexGroupBox = New System.Windows.Forms.GroupBox()
-        Me.maleRadioButton = New System.Windows.Forms.RadioButton()
-        Me.femaleRadioButton = New System.Windows.Forms.RadioButton()
+        Me.menRadioButton = New System.Windows.Forms.RadioButton()
+        Me.womenRadioButton = New System.Windows.Forms.RadioButton()
         Me.colorGroupBox = New System.Windows.Forms.GroupBox()
         Me.whiteRadioButton = New System.Windows.Forms.RadioButton()
         Me.redRadioButton = New System.Windows.Forms.RadioButton()
         Me.yellowRadioButton = New System.Windows.Forms.RadioButton()
         Me.greenRadioButton = New System.Windows.Forms.RadioButton()
         Me.blueRadioButton = New System.Windows.Forms.RadioButton()
-        Me.choicesGroupBox = New System.Windows.Forms.GroupBox()
+        Me.optionGroupBox = New System.Windows.Forms.GroupBox()
         Me.basicRadioButton = New System.Windows.Forms.RadioButton()
         Me.premiumRadioButton = New System.Windows.Forms.RadioButton()
         Me.standardRadioButton = New System.Windows.Forms.RadioButton()
         Me.priceLabel = New System.Windows.Forms.Label()
         Me.priceTextBox = New System.Windows.Forms.TextBox()
         Me.clearButton = New System.Windows.Forms.Button()
-        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.choice = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.women = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.women1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.men = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.men1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.men2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Quantitytab = New System.Windows.Forms.NumericUpDown()
+        Me.QuantityLabel = New System.Windows.Forms.Label()
+        Me.nameCheckBox = New System.Windows.Forms.CheckBox()
+        Me.monogramingCheckBox = New System.Windows.Forms.CheckBox()
+        Me.graphicCheckBox = New System.Windows.Forms.CheckBox()
+        Me.customizedLabel = New System.Windows.Forms.Label()
+        Me.styleCheckedListBox = New System.Windows.Forms.CheckedListBox()
+        Me.styleLabel = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.CheckedListBox1 = New System.Windows.Forms.CheckedListBox()
+        Me.calButton = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.SexGroupBox.SuspendLayout()
         Me.colorGroupBox.SuspendLayout()
-        Me.choicesGroupBox.SuspendLayout()
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.optionGroupBox.SuspendLayout()
+        CType(Me.Quantitytab, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(643, 456)
+        Me.Button2.Location = New System.Drawing.Point(572, 347)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
+        Me.Button2.Size = New System.Drawing.Size(70, 23)
         Me.Button2.TabIndex = 1
         Me.Button2.Text = "Exit"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'nameIputbox
         '
-        Me.nameIputbox.Location = New System.Drawing.Point(67, 43)
+        Me.nameIputbox.Location = New System.Drawing.Point(106, 48)
         Me.nameIputbox.Name = "nameIputbox"
-        Me.nameIputbox.Size = New System.Drawing.Size(100, 20)
+        Me.nameIputbox.Size = New System.Drawing.Size(95, 20)
         Me.nameIputbox.TabIndex = 2
         '
         'nameLabel
         '
         Me.nameLabel.AutoSize = True
-        Me.nameLabel.Location = New System.Drawing.Point(26, 43)
+        Me.nameLabel.Location = New System.Drawing.Point(64, 48)
         Me.nameLabel.Name = "nameLabel"
         Me.nameLabel.Size = New System.Drawing.Size(35, 13)
         Me.nameLabel.TabIndex = 3
@@ -90,12 +93,12 @@ Partial Class Form1
         Me.GroupBox1.Controls.Add(Me.mediumRadioButton)
         Me.GroupBox1.Controls.Add(Me.LargeRadioButton)
         Me.GroupBox1.Controls.Add(Me.SmallRadiobutton)
-        Me.GroupBox1.Location = New System.Drawing.Point(246, 40)
+        Me.GroupBox1.Location = New System.Drawing.Point(399, 48)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(73, 96)
+        Me.GroupBox1.Size = New System.Drawing.Size(68, 96)
         Me.GroupBox1.TabIndex = 4
         Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "Size"
+        Me.GroupBox1.Text = "SIZE"
         '
         'mediumRadioButton
         '
@@ -132,36 +135,36 @@ Partial Class Form1
         '
         'SexGroupBox
         '
-        Me.SexGroupBox.Controls.Add(Me.maleRadioButton)
-        Me.SexGroupBox.Controls.Add(Me.femaleRadioButton)
-        Me.SexGroupBox.Location = New System.Drawing.Point(29, 113)
+        Me.SexGroupBox.Controls.Add(Me.menRadioButton)
+        Me.SexGroupBox.Controls.Add(Me.womenRadioButton)
+        Me.SexGroupBox.Location = New System.Drawing.Point(257, 48)
         Me.SexGroupBox.Name = "SexGroupBox"
-        Me.SexGroupBox.Size = New System.Drawing.Size(77, 67)
+        Me.SexGroupBox.Size = New System.Drawing.Size(72, 67)
         Me.SexGroupBox.TabIndex = 5
         Me.SexGroupBox.TabStop = False
-        Me.SexGroupBox.Text = "Sex"
+        Me.SexGroupBox.Text = "SEX"
         '
-        'maleRadioButton
+        'menRadioButton
         '
-        Me.maleRadioButton.AutoSize = True
-        Me.maleRadioButton.Location = New System.Drawing.Point(6, 19)
-        Me.maleRadioButton.Name = "maleRadioButton"
-        Me.maleRadioButton.Size = New System.Drawing.Size(48, 17)
-        Me.maleRadioButton.TabIndex = 1
-        Me.maleRadioButton.TabStop = True
-        Me.maleRadioButton.Text = "Male"
-        Me.maleRadioButton.UseVisualStyleBackColor = True
+        Me.menRadioButton.AutoSize = True
+        Me.menRadioButton.Location = New System.Drawing.Point(6, 19)
+        Me.menRadioButton.Name = "menRadioButton"
+        Me.menRadioButton.Size = New System.Drawing.Size(46, 17)
+        Me.menRadioButton.TabIndex = 1
+        Me.menRadioButton.TabStop = True
+        Me.menRadioButton.Text = "Men"
+        Me.menRadioButton.UseVisualStyleBackColor = True
         '
-        'femaleRadioButton
+        'womenRadioButton
         '
-        Me.femaleRadioButton.AutoSize = True
-        Me.femaleRadioButton.Location = New System.Drawing.Point(6, 42)
-        Me.femaleRadioButton.Name = "femaleRadioButton"
-        Me.femaleRadioButton.Size = New System.Drawing.Size(59, 17)
-        Me.femaleRadioButton.TabIndex = 0
-        Me.femaleRadioButton.TabStop = True
-        Me.femaleRadioButton.Text = "Female"
-        Me.femaleRadioButton.UseVisualStyleBackColor = True
+        Me.womenRadioButton.AutoSize = True
+        Me.womenRadioButton.Location = New System.Drawing.Point(6, 42)
+        Me.womenRadioButton.Name = "womenRadioButton"
+        Me.womenRadioButton.Size = New System.Drawing.Size(62, 17)
+        Me.womenRadioButton.TabIndex = 0
+        Me.womenRadioButton.TabStop = True
+        Me.womenRadioButton.Text = "Women"
+        Me.womenRadioButton.UseVisualStyleBackColor = True
         '
         'colorGroupBox
         '
@@ -170,12 +173,12 @@ Partial Class Form1
         Me.colorGroupBox.Controls.Add(Me.yellowRadioButton)
         Me.colorGroupBox.Controls.Add(Me.greenRadioButton)
         Me.colorGroupBox.Controls.Add(Me.blueRadioButton)
-        Me.colorGroupBox.Location = New System.Drawing.Point(570, 40)
+        Me.colorGroupBox.Location = New System.Drawing.Point(257, 159)
         Me.colorGroupBox.Name = "colorGroupBox"
-        Me.colorGroupBox.Size = New System.Drawing.Size(77, 132)
+        Me.colorGroupBox.Size = New System.Drawing.Size(72, 132)
         Me.colorGroupBox.TabIndex = 6
         Me.colorGroupBox.TabStop = False
-        Me.colorGroupBox.Text = "Color"
+        Me.colorGroupBox.Text = "COLOUR"
         '
         'whiteRadioButton
         '
@@ -232,17 +235,17 @@ Partial Class Form1
         Me.blueRadioButton.Text = "Blue"
         Me.blueRadioButton.UseVisualStyleBackColor = True
         '
-        'choicesGroupBox
+        'optionGroupBox
         '
-        Me.choicesGroupBox.Controls.Add(Me.basicRadioButton)
-        Me.choicesGroupBox.Controls.Add(Me.premiumRadioButton)
-        Me.choicesGroupBox.Controls.Add(Me.standardRadioButton)
-        Me.choicesGroupBox.Location = New System.Drawing.Point(403, 40)
-        Me.choicesGroupBox.Name = "choicesGroupBox"
-        Me.choicesGroupBox.Size = New System.Drawing.Size(80, 97)
-        Me.choicesGroupBox.TabIndex = 7
-        Me.choicesGroupBox.TabStop = False
-        Me.choicesGroupBox.Text = "Choice"
+        Me.optionGroupBox.Controls.Add(Me.basicRadioButton)
+        Me.optionGroupBox.Controls.Add(Me.premiumRadioButton)
+        Me.optionGroupBox.Controls.Add(Me.standardRadioButton)
+        Me.optionGroupBox.Location = New System.Drawing.Point(567, 48)
+        Me.optionGroupBox.Name = "optionGroupBox"
+        Me.optionGroupBox.Size = New System.Drawing.Size(75, 97)
+        Me.optionGroupBox.TabIndex = 7
+        Me.optionGroupBox.TabStop = False
+        Me.optionGroupBox.Text = "OPTION"
         '
         'basicRadioButton
         '
@@ -280,7 +283,7 @@ Partial Class Form1
         'priceLabel
         '
         Me.priceLabel.AutoSize = True
-        Me.priceLabel.Location = New System.Drawing.Point(88, 459)
+        Me.priceLabel.Location = New System.Drawing.Point(64, 347)
         Me.priceLabel.Name = "priceLabel"
         Me.priceLabel.Size = New System.Drawing.Size(31, 13)
         Me.priceLabel.TabIndex = 8
@@ -288,102 +291,159 @@ Partial Class Form1
         '
         'priceTextBox
         '
-        Me.priceTextBox.Location = New System.Drawing.Point(151, 456)
+        Me.priceTextBox.Location = New System.Drawing.Point(101, 347)
         Me.priceTextBox.Name = "priceTextBox"
         Me.priceTextBox.ReadOnly = True
-        Me.priceTextBox.Size = New System.Drawing.Size(68, 20)
+        Me.priceTextBox.Size = New System.Drawing.Size(85, 20)
         Me.priceTextBox.TabIndex = 9
         '
         'clearButton
         '
-        Me.clearButton.Location = New System.Drawing.Point(436, 456)
+        Me.clearButton.Location = New System.Drawing.Point(428, 350)
         Me.clearButton.Name = "clearButton"
-        Me.clearButton.Size = New System.Drawing.Size(75, 23)
+        Me.clearButton.Size = New System.Drawing.Size(70, 23)
         Me.clearButton.TabIndex = 11
         Me.clearButton.Text = "Claer"
         Me.clearButton.UseVisualStyleBackColor = True
         '
-        'DataGridView1
+        'Quantitytab
         '
-        Me.DataGridView1.AllowUserToAddRows = False
-        Me.DataGridView1.AllowUserToDeleteRows = False
-        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.choice, Me.Column1, Me.women, Me.women1, Me.men, Me.men1, Me.men2})
-        Me.DataGridView1.Location = New System.Drawing.Point(18, 209)
-        Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.ReadOnly = True
-        Me.DataGridView1.Size = New System.Drawing.Size(743, 157)
-        Me.DataGridView1.TabIndex = 12
+        Me.Quantitytab.AllowDrop = True
+        Me.Quantitytab.Location = New System.Drawing.Point(88, 120)
+        Me.Quantitytab.Name = "Quantitytab"
+        Me.Quantitytab.Size = New System.Drawing.Size(60, 20)
+        Me.Quantitytab.TabIndex = 13
         '
-        'choice
+        'QuantityLabel
         '
-        Me.choice.HeaderText = ""
-        Me.choice.Name = "choice"
-        Me.choice.ReadOnly = True
+        Me.QuantityLabel.AutoSize = True
+        Me.QuantityLabel.Location = New System.Drawing.Point(85, 102)
+        Me.QuantityLabel.Name = "QuantityLabel"
+        Me.QuantityLabel.Size = New System.Drawing.Size(62, 13)
+        Me.QuantityLabel.TabIndex = 14
+        Me.QuantityLabel.Text = "QUANTITY"
         '
-        'Column1
+        'nameCheckBox
         '
-        Me.Column1.HeaderText = "women's small"
-        Me.Column1.Name = "Column1"
-        Me.Column1.ReadOnly = True
+        Me.nameCheckBox.AutoSize = True
+        Me.nameCheckBox.Location = New System.Drawing.Point(88, 245)
+        Me.nameCheckBox.Name = "nameCheckBox"
+        Me.nameCheckBox.Size = New System.Drawing.Size(54, 17)
+        Me.nameCheckBox.TabIndex = 15
+        Me.nameCheckBox.Text = "Name"
+        Me.nameCheckBox.UseVisualStyleBackColor = True
         '
-        'women
+        'monogramingCheckBox
         '
-        Me.women.HeaderText = "women's medium"
-        Me.women.Name = "women"
-        Me.women.ReadOnly = True
+        Me.monogramingCheckBox.AutoSize = True
+        Me.monogramingCheckBox.Location = New System.Drawing.Point(88, 274)
+        Me.monogramingCheckBox.Name = "monogramingCheckBox"
+        Me.monogramingCheckBox.Size = New System.Drawing.Size(98, 17)
+        Me.monogramingCheckBox.TabIndex = 16
+        Me.monogramingCheckBox.Text = "Monogramming"
+        Me.monogramingCheckBox.UseVisualStyleBackColor = True
         '
-        'women1
+        'graphicCheckBox
         '
-        Me.women1.HeaderText = "Women's Large"
-        Me.women1.Name = "women1"
-        Me.women1.ReadOnly = True
+        Me.graphicCheckBox.AutoSize = True
+        Me.graphicCheckBox.Location = New System.Drawing.Point(88, 212)
+        Me.graphicCheckBox.Name = "graphicCheckBox"
+        Me.graphicCheckBox.Size = New System.Drawing.Size(63, 17)
+        Me.graphicCheckBox.TabIndex = 17
+        Me.graphicCheckBox.Text = "Graphic"
+        Me.graphicCheckBox.UseVisualStyleBackColor = True
         '
-        'men
+        'customizedLabel
         '
-        Me.men.HeaderText = "Men's Small"
-        Me.men.Name = "men"
-        Me.men.ReadOnly = True
+        Me.customizedLabel.AutoSize = True
+        Me.customizedLabel.Location = New System.Drawing.Point(85, 183)
+        Me.customizedLabel.Name = "customizedLabel"
+        Me.customizedLabel.Size = New System.Drawing.Size(78, 13)
+        Me.customizedLabel.TabIndex = 18
+        Me.customizedLabel.Text = "CUSTOMIZED"
         '
-        'men1
+        'styleCheckedListBox
         '
-        Me.men1.HeaderText = "Men's Medium"
-        Me.men1.Name = "men1"
-        Me.men1.ReadOnly = True
+        Me.styleCheckedListBox.FormattingEnabled = True
+        Me.styleCheckedListBox.Items.AddRange(New Object() {"AB11", "AB12", "AB14", "HY17", "JK56", "MM12", "PY63", ""})
+        Me.styleCheckedListBox.Location = New System.Drawing.Point(546, 183)
+        Me.styleCheckedListBox.Name = "styleCheckedListBox"
+        Me.styleCheckedListBox.Size = New System.Drawing.Size(86, 79)
+        Me.styleCheckedListBox.TabIndex = 19
         '
-        'men2
+        'styleLabel
         '
-        Me.men2.HeaderText = "Mens's Large"
-        Me.men2.Name = "men2"
-        Me.men2.ReadOnly = True
+        Me.styleLabel.AutoSize = True
+        Me.styleLabel.Location = New System.Drawing.Point(564, 167)
+        Me.styleLabel.Name = "styleLabel"
+        Me.styleLabel.Size = New System.Drawing.Size(41, 13)
+        Me.styleLabel.TabIndex = 20
+        Me.styleLabel.Text = "STYLE"
         '
-        'Form1
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(393, 167)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(105, 13)
+        Me.Label1.TabIndex = 21
+        Me.Label1.Text = "GRAPHIC NUMBER"
+        '
+        'CheckedListBox1
+        '
+        Me.CheckedListBox1.FormattingEnabled = True
+        Me.CheckedListBox1.Items.AddRange(New Object() {"AB20", "JK52", "JM17", "PJ23", "TR16"})
+        Me.CheckedListBox1.Location = New System.Drawing.Point(399, 183)
+        Me.CheckedListBox1.Name = "CheckedListBox1"
+        Me.CheckedListBox1.Size = New System.Drawing.Size(88, 79)
+        Me.CheckedListBox1.TabIndex = 22
+        '
+        'calButton
+        '
+        Me.calButton.Location = New System.Drawing.Point(257, 347)
+        Me.calButton.Name = "calButton"
+        Me.calButton.Size = New System.Drawing.Size(75, 23)
+        Me.calButton.TabIndex = 23
+        Me.calButton.Text = "Calculate"
+        Me.calButton.UseVisualStyleBackColor = True
+        '
+        'NOVELTY
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(762, 507)
-        Me.Controls.Add(Me.DataGridView1)
+        Me.ClientSize = New System.Drawing.Size(656, 395)
+        Me.Controls.Add(Me.calButton)
+        Me.Controls.Add(Me.CheckedListBox1)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.styleLabel)
+        Me.Controls.Add(Me.styleCheckedListBox)
+        Me.Controls.Add(Me.customizedLabel)
+        Me.Controls.Add(Me.graphicCheckBox)
+        Me.Controls.Add(Me.monogramingCheckBox)
+        Me.Controls.Add(Me.nameCheckBox)
+        Me.Controls.Add(Me.QuantityLabel)
+        Me.Controls.Add(Me.Quantitytab)
         Me.Controls.Add(Me.clearButton)
         Me.Controls.Add(Me.priceTextBox)
         Me.Controls.Add(Me.priceLabel)
-        Me.Controls.Add(Me.choicesGroupBox)
+        Me.Controls.Add(Me.optionGroupBox)
         Me.Controls.Add(Me.colorGroupBox)
         Me.Controls.Add(Me.SexGroupBox)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.nameLabel)
         Me.Controls.Add(Me.nameIputbox)
         Me.Controls.Add(Me.Button2)
-        Me.Name = "Form1"
-        Me.Text = "Novelty"
+        Me.Name = "NOVELTY"
+        Me.Text = "NOVELTY"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         Me.SexGroupBox.ResumeLayout(False)
         Me.SexGroupBox.PerformLayout()
         Me.colorGroupBox.ResumeLayout(False)
         Me.colorGroupBox.PerformLayout()
-        Me.choicesGroupBox.ResumeLayout(False)
-        Me.choicesGroupBox.PerformLayout()
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.optionGroupBox.ResumeLayout(False)
+        Me.optionGroupBox.PerformLayout()
+        CType(Me.Quantitytab, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -396,27 +456,30 @@ Partial Class Form1
     Friend WithEvents LargeRadioButton As RadioButton
     Friend WithEvents SmallRadiobutton As RadioButton
     Friend WithEvents SexGroupBox As GroupBox
-    Friend WithEvents maleRadioButton As RadioButton
-    Friend WithEvents femaleRadioButton As RadioButton
+    Friend WithEvents menRadioButton As RadioButton
+    Friend WithEvents womenRadioButton As RadioButton
     Friend WithEvents colorGroupBox As GroupBox
     Friend WithEvents whiteRadioButton As RadioButton
     Friend WithEvents redRadioButton As RadioButton
     Friend WithEvents yellowRadioButton As RadioButton
     Friend WithEvents greenRadioButton As RadioButton
     Friend WithEvents blueRadioButton As RadioButton
-    Friend WithEvents choicesGroupBox As GroupBox
+    Friend WithEvents optionGroupBox As GroupBox
     Friend WithEvents basicRadioButton As RadioButton
     Friend WithEvents premiumRadioButton As RadioButton
     Friend WithEvents standardRadioButton As RadioButton
     Friend WithEvents priceLabel As Label
     Friend WithEvents priceTextBox As TextBox
     Friend WithEvents clearButton As Button
-    Friend WithEvents DataGridView1 As DataGridView
-    Friend WithEvents choice As DataGridViewTextBoxColumn
-    Friend WithEvents Column1 As DataGridViewTextBoxColumn
-    Friend WithEvents women As DataGridViewTextBoxColumn
-    Friend WithEvents women1 As DataGridViewTextBoxColumn
-    Friend WithEvents men As DataGridViewTextBoxColumn
-    Friend WithEvents men1 As DataGridViewTextBoxColumn
-    Friend WithEvents men2 As DataGridViewTextBoxColumn
+    Friend WithEvents Quantitytab As NumericUpDown
+    Friend WithEvents QuantityLabel As Label
+    Friend WithEvents nameCheckBox As CheckBox
+    Friend WithEvents monogramingCheckBox As CheckBox
+    Friend WithEvents graphicCheckBox As CheckBox
+    Friend WithEvents customizedLabel As Label
+    Friend WithEvents styleCheckedListBox As CheckedListBox
+    Friend WithEvents styleLabel As Label
+    Friend WithEvents Label1 As Label
+    Friend WithEvents CheckedListBox1 As CheckedListBox
+    Friend WithEvents calButton As Button
 End Class

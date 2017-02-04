@@ -1,8 +1,6 @@
-﻿Public Class Form1
+﻿Public Class NOVELTY
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        With Me.DataGridView1.Rows
-            .Add({"basic", "$5.95", "$5.95", "$5.95", $"5.95", "$7.95", "$7.95"})
-        End With
+
     End Sub
 
     Private womanBasic As Decimal = 5.95
@@ -16,7 +14,7 @@
 
     End Sub
 
-    Private Sub maleRadioButton_CheckedChanged(sender As Object, e As EventArgs) Handles maleRadioButton.CheckedChanged
+    Private Sub maleRadioButton_CheckedChanged(sender As Object, e As EventArgs) Handles menRadioButton.CheckedChanged
 
     End Sub
 
@@ -28,7 +26,7 @@
 
     End Sub
 
-    Private Sub DataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView1.CellContentClick
+    Private Sub DataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs)
 
     End Sub
 End Class
